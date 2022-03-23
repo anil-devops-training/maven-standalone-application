@@ -39,13 +39,13 @@
 	    <repository>
 	      <id>anilnexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.127.132.71:8081/repository/4thprojectreleases-master/</url>
+	      <url>http://65.2.161.61:8081/repository/standalone-releses/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>anilnexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.127.132.71:8081/repository/4thprojectsnapshot-master/</url>
+	      <url>http://65.2.161.61:8081/repository/standalone-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
