@@ -34,7 +34,21 @@
 		</dependency>
 
 	</dependencies>
-      
+        <distributionManagement>
+	
+	    <repository>
+	      <id>anilnexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://13.127.132.71:8081/repository/4thprojectreleases-master/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>anilnexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://13.127.132.71:8081/repository/4thprojectsnapshot-master/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
