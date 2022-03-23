@@ -18,7 +18,7 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://13.234.204.171:9000/</sonar.host.url>
+		<sonar.host.url>http://65.0.86.85:9000/</sonar.host.url>
 		<sonar.login>e82a2383d60e20503e522dadaf59cc33fe155cf0</sonar.login>
 		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,21 +34,7 @@
 		</dependency>
 
 	</dependencies>
-        <distributionManagement>
-	
-	    <repository>
-	      <id>anilnexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.110.188.22:8081/repository/standalone-releses/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>anilnexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.110.188.22:8081/repository/standalone-snapshot/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
+      
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
